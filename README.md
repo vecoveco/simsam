@@ -46,8 +46,7 @@ Figure 1.16 describes the relationship between algorithm components and products
 
 Resolution | Region - Dates  |	Latency  | 	Format   | 	Source  
 -----------|------------------|-----------|-----------|----------
-Varies by Channel - 16 orbits per day |	Latitudes 70°N-S, Past 2 Weeks (NRT) |	20 minutes (NRT); 6 hours (Prod) 	|
-HDF5 |	FTP (PPS) (/YYYY/MM/DD/1B)
+Varies by Channel - 16 orbits per day |	Latitudes 70°N-S, Past 2 Weeks (NRT) |	20 minutes (NRT); 6 hours (Prod) 	|HDF5 |	FTP (PPS) (/YYYY/MM/DD/1B)
 
 
 
