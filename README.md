@@ -51,6 +51,23 @@ Resolution | Region - Dates  |	Latency  | 	Format   | 	Source
 -----------|------------------|-----------|-----------|----------
 Varies by Channel - 16 orbits per day |	Latitudes 70°N-S, Past 2 Weeks (NRT) |	20 minutes (NRT); 6 hours (Prod) 	|HDF5 |	FTP (PPS) (/YYYY/MM/DD/1B)
 
+-----------------------------------------
+### 1C-GMI: Calibrated GMI brightness temperatures
+-----------------------------------------
 
+> B.GPM.GMI.TB2015.20150609-S000921-E014155.007256.V04A.HDF5
+
+The Level 1C algorithms transform equivalent Level 1B radiance data into Level 1C products. The input source data are geolocated and radiometric calibrated antenna temperature (Ta) or brightness temperature (Tb). The output Level 1C products are common intercalibrated brightness temperature (Tc) products using the GPM Microwave Imager (GMI) as the reference standard. The Level 1C algorithms contain the following major components:
+
+    > Orbitization.
+    > Satellite intercalibration.
+    > Quality control.
+    > Ancillary data calculations.
+
+The detail of L1C algorithms and implementation depends on the details of each sensor. In this document, the Level 1C algorithms are described in a general sense. Individual sensor-specific details are provided separately in Appendices A through G: A) GMI, B) LIC-R GMI, C) Tropical Rainfall Measuring Mission (TRMM) Microwave Imager (TMI), D) Special Sensor Microwave Imager/Sounder (SSMI/S), E) Advanced Microwave Scanning Radiometer 2 (AMSR2), F) Advanced Technology Microwave Sounder (ATMS), G) Sondeur Atmospherique du Profil d'Humidite Intertropicale par Radiometrie (SAPHIR), and H) Microwave Humidity Sounder (MHS).
+
+Resolution | Region - Dates  |	Latency  | 	Format   | 	Source  
+-----------|------------------|-----------|-----------|----------
+Varies by Channel - 16 orbits per day |	orbital, Past 2 Weeks (NRT) |	20 minutes (NRT); 6 hours (Prod) 	|HDF5 |	FTP (PPS) (/YYYY/MM/DD/1C)
 
 
