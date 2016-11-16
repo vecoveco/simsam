@@ -23,6 +23,8 @@ Level 1C: Common intercalibrated brightness temperature (Tc) products using the 
 
 ### 1A-GMI: GMI Packet Data Transmitted by the Satellite
 
+> 1A.GPM.GMI.COUNT2016.20150609-S000921-E014155.007256.V04A.HDF5
+
 Resolution | Region - Dates  |	Latency  | 	Format   | 	Source  
 -----------|------------------|-----------|-----------|----------
 4km x 4km - 16 orbits per day| 	Latitudes 70°N-S, March 2014 - present| 	40 hours (Prod)| 	HDF5 |	Prod: FTP (PPS)*(/YYYY/MM/DD/1A)
@@ -35,8 +37,18 @@ Swath S3 has ScienceDataHeader. Swath S4 has full rotation for low freq channels
 
 ### 1B-GMI: GMI brightness temperatures
 
+> B.GPM.GMI.TB2015.20150609-S000921-E014155.007256.V04A.HDF5
 
 The Level 1B algorithm and software transform Level 0 counts into geolocated and calibrated antenna temperatures (Ta) and brightness temperatures (Tb). 
 Ta is obtained by utilizing the sensor radiometric calibration as well as various corrections based on after launch analyses. 
 Tb is derived from Ta after antenna pattern correction (APC) and along scan corrections. 
 Figure 1.16 describes the relationship between algorithm components and products (or output).
+
+Resolution | Region - Dates  |	Latency  | 	Format   | 	Source  
+-----------|------------------|-----------|-----------|----------
+Varies by Channel - 16 orbits per day |	Latitudes 70°N-S, Past 2 Weeks (NRT) |	20 minutes (NRT); 6 hours (Prod) 	|
+HDF5 |	FTP (PPS) (/YYYY/MM/DD/1B)
+
+
+
+
