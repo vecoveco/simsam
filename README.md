@@ -55,7 +55,7 @@ Varies by Channel - 16 orbits per day |	Latitudes 70°N-S, Past 2 Weeks (NRT) |	
 ### 1C-GMI: Calibrated GMI brightness temperatures
 -----------------------------------------
 
-> B.GPM.GMI.TB2015.20150609-S000921-E014155.007256.V04A.HDF5
+> 1C.GPM.GMI.XCAL2015-C.20150609-S000921-E014155.007256.V04A.HDF5
 
 The Level 1C algorithms transform equivalent Level 1B radiance data into Level 1C products. The input source data are geolocated and radiometric calibrated antenna temperature (Ta) or brightness temperature (Tb). The output Level 1C products are common intercalibrated brightness temperature (Tc) products using the GPM Microwave Imager (GMI) as the reference standard. The Level 1C algorithms contain the following major components:
 
@@ -71,3 +71,50 @@ Resolution | Region - Dates  |	Latency  | 	Format   | 	Source
 Varies by Channel - 16 orbits per day |	orbital, Past 2 Weeks (NRT) |	20 minutes (NRT); 6 hours (Prod) 	|HDF5 |	FTP (PPS) (/YYYY/MM/DD/1C)
 
 
+# Level 2
+===========
+
+Derived geophysical parameters at the same resolution and location as those of the Level 1 data.
+
+### 1C-GMI: Calibrated GMI brightness temperatures
+-----------------------------------------
+
+> 1C.GPM.GMI.XCAL2015-C.20150609-S000921-E014155.007256.V04A.HDF5
+
+The Level 1C algorithms transform equivalent Level 1B radiance data into Level 1C products. The input source data are geolocated and radiometric calibrated antenna temperature (Ta) or brightness temperature (Tb). The output Level 1C products are common intercalibrated brightness temperature (Tc) products using the GPM Microwave Imager (GMI) as the reference standard. The Level 1C algorithms contain the following major components:
+
+    > Orbitization.
+    > Satellite intercalibration.
+    > Quality control.
+    > Ancillary data calculations.
+
+The detail of L1C algorithms and implementation depends on the details of each sensor. In this document, the Level 1C algorithms are described in a general sense. Individual sensor-specific details are provided separately in Appendices A through G: A) GMI, B) LIC-R GMI, C) Tropical Rainfall Measuring Mission (TRMM) Microwave Imager (TMI), D) Special Sensor Microwave Imager/Sounder (SSMI/S), E) Advanced Microwave Scanning Radiometer 2 (AMSR2), F) Advanced Technology Microwave Sounder (ATMS), G) Sondeur Atmospherique du Profil d'Humidite Intertropicale par Radiometrie (SAPHIR), and H) Microwave Humidity Sounder (MHS).
+
+Resolution | Region - Dates  |	Latency  | 	Format   | 	Source  
+-----------|------------------|-----------|-----------|----------
+Varies by Channel - 16 orbits per day |	orbital, Past 2 Weeks (NRT) |	20 minutes (NRT); 6 hours (Prod) 	|HDF5 |	FTP (PPS) (/YYYY/MM/DD/1C)
+
+
+# GPM Public Data
+==================
+
+/gpmdata contains the latest version of available data products. 
+
+Directories are laid out as:
+
+/gpmdata/documents ****!!!! Please review the contents of 
+                       this directory. It contains important 
+                       data notices and caveats !!!!****
+/gpmdata/geolocation  contains geolocation related files
+/gpmdata/coincidence contains satellite-ground coincidence information
+/gpmdata/browse contains PNG browse images of products.
+
+Data products exist under:
+> /gpmdata/YYYY/MM/DD/
+
+  base/reg  - 1B base radiometer products
+  1B    - 1B radiometer products for GPMcore and all partners
+  1C    - 1C radiometer products for GPMcore and all partners
+  radar - L2 and L3 products from DPR and Combined
+  gprof - L2 and L3 products from GPROF for GPMcore and all partners
+  imerg - IMERG products
