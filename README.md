@@ -18,9 +18,9 @@ wip
 
 Directories are laid out as:
 
-*/gpmdata/documents* ****!!!! Please review the contents of 
+*/gpmdata/documents* !!!! Please review the contents of 
                        this directory. It contains important 
-                       data notices and caveats !!!!****
+                       data notices and caveats !!!!
                        
                        
 */gpmdata/geolocation*  
@@ -46,6 +46,21 @@ Data products exist under:
  > gprof - L2 and L3 products from GPROF for GPMcore and all partners
  
  > imerg - IMERG products
+ 
+ **Level 1**
+ > Level 1A: Reconstructed, unprocessed instrument data at full resolution, time referenced, and annotated with ancillary information, including radiometric and geometric calibration coefficients and georeferencing parameters (i.e., platform ephemeris), computed and appended, but not applied, to Level 0 data.
+
+ > Level 1B: Radiometrically corrected and geolocated Level 1A data that have been processed to sensor units..
+
+ > Level 1C: Common intercalibrated brightness temperature (Tc) products using the GPM Microwave Imager (GMI) Level 1B as the reference standard.
+ 
+ **Level 2**
+ 
+  > Derived geophysical parameters at the same resolution and location as those of the Level 1 data.
+ 
+ **Level 3**
+ 
+  > Geophysical parameters that have been spatially and/or temporally resampled from Level 1 or Level 2 data.
  
  
  ----------------------------------------------------------
