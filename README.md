@@ -120,8 +120,13 @@ Data products exist under:
 * /gpmdata/YYYY/MM/DD/*
 
  > base/reg  - 1B base radiometer products
+ 
  > 1B    - 1B radiometer products for GPMcore and all partners
+ 
  > 1C    - 1C radiometer products for GPMcore and all partners
+ 
  > radar - L2 and L3 products from DPR and Combined
+ 
  > gprof - L2 and L3 products from GPROF for GPMcore and all partners
+ 
  > imerg - IMERG products
