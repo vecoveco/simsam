@@ -47,8 +47,9 @@ Data products exist under:
  
  > imerg - IMERG products
  
+ 
  ----------------------
- ## Level
+ # Level
  ----------------------
  
  **Level 1**
@@ -66,7 +67,8 @@ Data products exist under:
  
   > Geophysical parameters that have been spatially and/or temporally resampled from Level 1 or Level 2 data.
  
- ## Products
+ 
+ # Products
  ==============
  
  ----------------------------------------------------------
