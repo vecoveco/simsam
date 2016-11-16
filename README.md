@@ -48,9 +48,10 @@ Data products exist under:
  > imerg - IMERG products
  
  
- ----------------------
- # Level
- ----------------------
+ 
+---------------------- 
+# Level
+----------------------
  
  **Level 1**
  > Level 1A: Reconstructed, unprocessed instrument data at full resolution, time referenced, and annotated with ancillary information, including radiometric and geometric calibration coefficients and georeferencing parameters (i.e., platform ephemeris), computed and appended, but not applied, to Level 0 data.
@@ -68,8 +69,9 @@ Data products exist under:
   > Geophysical parameters that have been spatially and/or temporally resampled from Level 1 or Level 2 data.
  
  
- # Products
- ==============
+---------------------- 
+# Products
+---------------
  
  ----------------------------------------------------------
 ### 1A
