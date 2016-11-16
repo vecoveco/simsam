@@ -134,6 +134,8 @@ Resolution | Region - Dates  |	Latency  | 	Format   | 	Source
 
 ##### 2B.GPM.DPRGMI.2HCSHv2-1.20150609-S000921-E014155.007256.V04A.HDF5
 
+> 2B-CMB: Combined GMI + DPR single orbit rainfall estimates
+
 > The GPM Combined Radar-Radiometer Algorithm performs two basic functions: first, it provides, in principle, the most accurate, high resolution estimates of surface rainfall rate and precipitation vertical distributions that can be achieved from a spaceborne platform, and it is therefore valuable for applications where information regarding instantaneous storm structure are vital. Second, a global, representative collection of combined algorithm estimates will yield a single common reference dataset that can be used to “cross-calibrate” rain rate estimates from all of the passive microwave radiometers in the GPM constellation. The cross-calibration of radiometer estimates is crucial for developing a consistent, high time-resolution precipitation record for climate science and prediction model validation applications.
 
 Resolution | Region - Dates  |	Latency  | 	Format   | 	Source  
@@ -145,13 +147,15 @@ Resolution | Region - Dates  |	Latency  | 	Format   | 	Source
 
 > The objective of the level 2 DPR algorithms is to generate from the level 1 DPR products radar-only derived meteorological quantities on an instantaneous FOV (field of view) basis. A subset of the results will be used by the level 2 combined radar-radiometer algorithm and the level 3 combined and radar-only products. The general idea behind the algorithms is to determine general characteristics of the precipitation, correct for attenuation and estimate profiles of the precipitation water content, rainfall rate and, when dual-wavelength data are available, information on the particle size distributions in rain and snow. It is particularly important that dual-wavelength data will provide better estimates of rainfall and snowfall rates than the TRMM PR data by using the particle size information and the capability of estimating, even in convective storms, the height at which the precipitation transitions from solid to liquid. 
 
+> 2A-Ku: DPR Ku-only single orbit rainfall estimates
+
 Resolution | Region - Dates  |	Latency  | 	Format   | 	Source  
 -----------|------------------|-----------|-----------|----------
 5.2km x 125m - 16 orbits per day|	Latitudes 70°N-S, Past 2 Weeks (NRT); March 2014 - present (Prod) |	20 - 120 minutes (NRT); 24 hours (Prod)|HDF5 |	FTP (PPS) (/YYYY/MM/DD/2A.GPM.Ku)
 
 ##### 2A.GPM.Ka.V6-20160118.20150609-S014156-E031430.007257.V04A.HDF5
 
-> The objective of the level 2 DPR algorithms is to generate from the level 1 DPR products radar-only derived meteorological quantities on an instantaneous FOV (field of view) basis. A subset of the results will be used by the level 2 combined radar-radiometer algorithm and the level 3 combined and radar-only products. The general idea behind the algorithms is to determine general characteristics of the precipitation, correct for attenuation and estimate profiles of the precipitation water content, rainfall rate and, when dual-wavelength data are available, information on the particle size distributions in rain and snow. It is particularly important that dual-wavelength data will provide better estimates of rainfall and snowfall rates than the TRMM PR data by using the particle size information and the capability of estimating, even in convective storms, the height at which the precipitation transitions from solid to liquid. 
+> 2A-Ka: DPR Ka-only single orbit rainfall estimates
 
 Resolution | Region - Dates  |	Latency  | 	Format   | 	Source  
 -----------|------------------|-----------|-----------|----------
@@ -159,7 +163,11 @@ Resolution | Region - Dates  |	Latency  | 	Format   | 	Source
 
 
 
-> 2A.GPM.DPR.GPM-SLH.20150609-S000921-E014155.007256.V04A.HDF5
+##### 2A.GPM.DPR.V6-20160118.20150609-S000921-E014155.007256.V04A.HDF5
 
-> 2A.GPM.DPR.V6-20160118.20150609-S000921-E014155.007256.V04A.HDF5
+> 2A-DPR: DPR Ka&Ku single orbit rainfall estimates
 
+
+Resolution | Region - Dates  |	Latency  | 	Format   | 	Source  
+-----------|------------------|-----------|-----------|----------
+5.2km x 125m - 16 orbits per day|	Latitudes 70°N-S, Past 2 Weeks (NRT); March 2014 - present (Prod) |	20 - 120 minutes (NRT); 24 hours (Prod)|HDF5 |	FTP (PPS) (/YYYY/MM/DD/2A.GPM.Ku)
