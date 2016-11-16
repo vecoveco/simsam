@@ -23,11 +23,9 @@ Level 1C: Common intercalibrated brightness temperature (Tc) products using the 
 
 ### 1A-GMI: GMI Packet Data Transmitted by the Satellite
 
-Resolution    	Region - Dates    	Latency    	Format    	Source    	DL   
-4km x 4km - 16 orbits per day 	Latitudes 70°N-S, March 2014 - present 	40 hours (Prod) 	
-HDF5 	Prod: FTP (PPS)*
-
-(/YYYY/MM/DD/1A)
+Resolution | Region - Dates  |	Latency  | 	Format   | 	Source  
+-----------|------------------|-----------|-----------|----------
+4km x 4km - 16 orbits per day| 	Latitudes 70°N-S, March 2014 - present| 	40 hours (Prod)| 	HDF5 |	Prod: FTP (PPS)*(/YYYY/MM/DD/1A)
 
 1AGMI contains unpacked packet data from GMI science data from the GMI passive microwave instrument flown on the GPM satellite. 
 Swath S1 has 9 channels which are similar to TRMM TMI (10V 10H 19V 19H 23V 37V 37H 89V 89H). 
