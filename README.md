@@ -102,15 +102,17 @@ Varies by Channel - 16 orbits per day |	orbital, Past 2 Weeks (NRT) |	20 minutes
 
 Directories are laid out as:
 
-/gpmdata/documents ****!!!! Please review the contents of 
+*/gpmdata/documents* ****!!!! Please review the contents of 
                        this directory. It contains important 
                        data notices and caveats !!!!****
-/gpmdata/geolocation  contains geolocation related files
-/gpmdata/coincidence contains satellite-ground coincidence information
-/gpmdata/browse contains PNG browse images of products.
+                       
+                       
+*/gpmdata/geolocation*  contains geolocation related files
+*/gpmdata/coincidence* contains satellite-ground coincidence information
+*/gpmdata/browse* contains PNG browse images of products.
 
 Data products exist under:
-> /gpmdata/YYYY/MM/DD/
+* /gpmdata/YYYY/MM/DD/*
 
   base/reg  - 1B base radiometer products
   1B    - 1B radiometer products for GPMcore and all partners
