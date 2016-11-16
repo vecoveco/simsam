@@ -117,7 +117,7 @@ Directories are laid out as:
 > contains PNG browse images of products.
 
 Data products exist under:
-* /gpmdata/YYYY/MM/DD/*
+*/gpmdata/YYYY/MM/DD/*
 
  > base/reg  - 1B base radiometer products
  
