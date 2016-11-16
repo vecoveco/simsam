@@ -21,6 +21,7 @@ Level 1B: Radiometrically corrected and geolocated Level 1A data that have been 
 
 Level 1C: Common intercalibrated brightness temperature (Tc) products using the GPM Microwave Imager (GMI) Level 1B as the reference standard.
 
+----------------------------------------------------------
 ### 1A-GMI: GMI Packet Data Transmitted by the Satellite
 ----------------------------------------------------------
 
@@ -35,7 +36,7 @@ Swath S1 has 9 channels which are similar to TRMM TMI (10V 10H 19V 19H 23V 37V 3
 Swath S2 has 4 channels similar to AMSU-B (166V 166H 183+/-3V 183+/-8V). Data for both swaths is observed in the same revolution of the instrument. 
 Swath S3 has ScienceDataHeader. Swath S4 has full rotation for low freq channels (S1). Swath S5 has full rotation for high freq channels (S2).
 
-
+-----------------------------------------
 ### 1B-GMI: GMI brightness temperatures
 -----------------------------------------
 
