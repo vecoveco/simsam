@@ -56,6 +56,7 @@ Contractor  |  Mitsubishi
 Rocket  | 	H-IIA 202
 Reference system |	Geocentric
 Orbit Type |	Low Earth Orbit LEO
+velocity_m | 7[ km/s]
 
 Instrument | Abk. | Spur | Typ  | Produkt
 ------------|-----|------|------|----------
@@ -65,21 +66,23 @@ Dual_Frequency Precipitation Radar | DPR Ku-Band | 245 km | 13.6 GHz | 3dKu
 
 
 
-Satellite | Agency | Short | Nation
-----------|---------|--------| -------
-Megha-Tropiques | Centre National d’Études Spatiales,  Indian Space Research Organization  | CNES, ISRO | France, India
-NOAA 18 |  National Oceanic and Atmospheric Administration | NOAA | USA
-NOAA 19 |  National Oceanic and Atmospheric Administration | NOAA | USA
-GCOM_W1 |  Japan Aerospace Exploration Agency | JAXA | Japan
-DMSP F17 |  Department of Defense | DOD | USA
-DMSP F18 |  Department of Defense | DOD | USA
-DMSP F19 |  Department of Defense | DOD | USA
-DMSP F20 |  Department of Defense | DOD | USA
-JPSS-1 | National Oceanic and Atmospheric Administration | NOAA | USA
-TRMM |  National Aeronautics and Space Administration ,Japan Aerospace Exploration Agency | NASA, JAXA | USA, Japan
-MetOp B |  European Organization for the Exploitation of Meteorological Satellites | EUMETSAT | Europa
-MetOp C |  European Organization for the Exploitation of Meteorological Satellites | EUMETSAT | Europa
-Suomi NPP | National Aeronautics and Space Administration, National Oceanic and Atmospheric Administration | NASA, NOA | USA
+Satellite |Sensor| Agency | Short | Nation
+----------|------|--------|-------| -------
+Megha-Tropiques | SAPHIR |Centre National d’Études Spatiales,  Indian Space Research Organization  | CNES, ISRO | France, India
+NOAA 18 | MHS |National Oceanic and Atmospheric Administration | NOAA | USA
+NOAA 19 | MHS | National Oceanic and Atmospheric Administration | NOAA | USA
+GCOM_W1 | AMSR2 | Japan Aerospace Exploration Agency | JAXA | Japan
+DMSP F17 | SSMIS | Department of Defense | DOD | USA
+DMSP F18 | SSMIS | Department of Defense | DOD | USA
+DMSP F19 | SSMIS | Department of Defense | DOD | USA
+DMSP F20 | SSMIS | Department of Defense | DOD | USA
+JPSS-1* |ATMS | National Oceanic and Atmospheric Administration | NOAA | USA
+TRMM* | TMI | National Aeronautics and Space Administration ,Japan Aerospace Exploration Agency | NASA, JAXA | USA, Japan
+MetOp B | MHS | European Organization for the Exploitation of Meteorological Satellites | EUMETSAT | Europa
+MetOp C | MHS | European Organization for the Exploitation of Meteorological Satellites | EUMETSAT | Europa
+Suomi NPP |ATMS | National Aeronautics and Space Administration, National Oceanic and Atmospheric Administration | NASA, NOA | USA
+
+> *ended
 
 ==================
 # GPM GPROF2014
