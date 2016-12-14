@@ -275,3 +275,8 @@ Resolution | Region - Dates  |	Latency  | 	Format   | 	Source
 
 
 
+# Literatur
+
+> Kumerow C. 2001 The Evolution of the Goddard Profiling Algorithm (GPROF) for Rainfall Estimation from Passive Microwave Sensors
+
+
